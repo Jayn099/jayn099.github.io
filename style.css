@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+  font-family: "Lato", sans-serif;
+}
 
 .sidenav {
   height: 100%;
@@ -34,6 +37,7 @@
   margin-left: 142px; 
   font-size: 28px; 
   padding: 0px 10px;
+  margin-right: -2%;
 }
 
 @media screen and (max-height: 450px) {
@@ -43,7 +47,7 @@
 #navbar {
     overflow: hidden;
     background-color: #79a5e6;
-    padding: 90px 10px;
+    padding: 30px 10px;
     transition: 0.4s;
     position: fixed;
     width: 100%;
@@ -63,7 +67,7 @@
 }
 
 #navbar #logo {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     transition: 0.4s;
 }
@@ -92,15 +96,7 @@
         text-align: left;
     }
 }
-#home {
-    margin-top: 210px;
-    padding: 15px 15px 2500px;
-   
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .AT1 {
     width: 70%; 
     font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
@@ -109,4 +105,14 @@
 
 .TopAT1 {
     text-align: center;
+}
+
+#home {
+    margin-top: 100px;
+    padding: 15px 15px 2500px;
+   
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
